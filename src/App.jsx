@@ -3,6 +3,7 @@ import './App.css'
 
 // const api_key=import.meta.env.VITE_APP_API_KEY
 const api_key=import.meta.env.VITE_SOME_KEY
+console.log(api_key)
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
