@@ -2,12 +2,12 @@ import { useState } from 'react'
 import './App.css'
 
 // const api_key=import.meta.env.VITE_APP_API_KEY
-const api_key=import.meta.env.VITE_SOME_KEY
-console.log(api_key)
+const VITE_SOME_KEY=import.meta.env.VITE_SOME_KEY
+console.log(VITE_SOME_KEY)
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';
 
-const API_KEY =api_key
+const API_KEY =VITE_SOME_KEY
 
 
 // const API_KEY = "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";
