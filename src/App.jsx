@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { apiKey } from '../apikey';
+
 // const api_key=import.meta.env.VITE_APP_API_KEY
 const api_key=import.meta.env.VITE_SOME_KEY
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';

@@ -9,7 +9,6 @@ lerna-debug.log*
 
 node_modules
 *.local
-apikey.jsx
 dist
 dist-ssr
 *.local
